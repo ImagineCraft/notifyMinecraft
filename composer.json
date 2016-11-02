@@ -1,32 +1,30 @@
 {
-	"name": "dmzx/notifyadmin",
+	"name": "ImagineCraft/notifyMinecraft",
 	"type": "phpbb-extension",
-	"description": "When a new user registers on your board, a short e-mail with basic user info will be sent to all administrators of the board.",
-	"homepage": "http://www.dmzx-web.net",
+	"description": "When a new user registers, a notification will be sent to a pre-configured Minecraft server.",
+	"homepage": "https://github.com/ImagineCraft/notifyMinecraft",
 	"version": "1.0.0",
-	"time": "2015-05-02",
-	"keywords": ["phpbb", "extension", "notifyadmin"],
-	"license": "GPL-2.0",
+	"license": "GPL-3.0",
 	"authors": [
 		{
 			"name": "dmzx",
 			"homepage": "http://www.dmzx-web.net",
 			"email": "info@dmzx-web.net",
 			"role": "Extension Developer"
+		},
+		{
+			"name": "kriation",
+			"homepage": "https://github.com/kriation",
+			"email": "armen@kriation.com"
 		}
 	],
 	"require": {
 		"php": ">=5.3"
 	},
 	"extra": {
-		"display-name": "Notify Admin on Registration",
+		"display-name": "Minecraft Server Notification",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.4-RC1,<3.2.*@dev"
-		},
-		"version-check": {
-			"host": "www.dmzx-web.net",
-			"directory": "/versions",
-			"filename": "notifyadmin_version.json"
+			"phpbb/phpbb": ">=3.1.9,<3.2.*"
 		}
 	}
 }
