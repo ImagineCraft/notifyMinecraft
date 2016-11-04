@@ -9,7 +9,7 @@
 
 namespace ImagineCraft\notifyMinecraft\event
 
-class Rcon {
+class rcon {
 	
 	private $host;
 	private $port;
