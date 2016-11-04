@@ -1,9 +1,10 @@
 <?php
 /**
- * See https://developer.valvesoftware.com/wiki/Source_RCON_Protocol for
- * more information about Source RCON Packets
- * 
+ * @author Chris Churchwell
  * @copyright 2013 Chris Churchwell
+ * @license MIT
+ * @link https://github.com/thedudeguy/PHP-Minecraft-Rcon
+ * @link https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
  */
 
 namespace ImagineCraft\notifyMinecraft\event
