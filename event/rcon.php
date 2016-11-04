@@ -7,7 +7,7 @@
  * @link https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
  */
 
-namespace ImagineCraft\notifyMinecraft\event
+namespace ImagineCraft\notifyMinecraft\event;
 
 class rcon {
 	
