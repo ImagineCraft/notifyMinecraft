@@ -5,6 +5,9 @@
  * 
  * @copyright 2013 Chris Churchwell
  */
+
+namespace ImagineCraft\notifyMinecraft\event
+
 class Rcon {
 	
 	private $host;
@@ -159,3 +162,4 @@ class Rcon {
 		return $packet_pack;
 	}
 }
+
