@@ -1,7 +1,7 @@
 {
 	"name": "ImagineCraft/notifyMinecraft",
 	"type": "phpbb-extension",
-	"description": "When a new user registers, a notification will be sent to a pre-configured Minecraft server.",
+	"description": "Extension to send a notification to a Minecraft server",
 	"homepage": "https://github.com/ImagineCraft/notifyMinecraft",
 	"version": "1.0.0",
 	"license": "GPL-3.0",
