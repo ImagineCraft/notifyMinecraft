@@ -23,5 +23,6 @@ $lang = array_merge($lang, array(
 		'Minecraft Server RCON Timeout (in seconds)',
 	'ACP_NOTIFY_MINECRAFT_SERVER_MESSAGE'	=>	
 		'Message to be sent on notification to Minecraft Server',
+	'ACP_NOTIFY_MINECRAFT_FORUM_ID' =>	'phpBB Forum ID',
 ));
 

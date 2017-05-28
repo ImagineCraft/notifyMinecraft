@@ -33,6 +33,8 @@ class notifyminecraft_module
 				$request->variable('ic_nm_server_timeout', 'timeout'));
 			$config->set('ic_nm_server_message', 
 				$request->variable('ic_nm_server_message', 'notification message'));
+			$config->set('ic_nm_forum_id',
+				$request->variable('ic_nm_forum_id', 'forum id'));
 
 			trigger_error($user->lang('ACP_NOTIFY_MINECRAFT_SAVED') 
 				. adm_back_link($this->u_action));
@@ -44,7 +46,8 @@ class notifyminecraft_module
             'IC_NM_SERVER_PORT'	=> $config['ic_nm_server_port'],
             'IC_NM_SERVER_PASS'	=> $config['ic_nm_server_pass'],
             'IC_NM_SERVER_TIMEOUT'	=> $config['ic_nm_server_timeout'],
-            'IC_NM_SERVER_MESSAGE'	=> $config['ic_nm_server_message'],
+			'IC_NM_SERVER_MESSAGE'	=> $config['ic_nm_server_message'],
+			'IC_NM_FORUM_ID'		=> $config['ic_nm_forum_id'],
         ));
     }
 }
