@@ -21,7 +21,7 @@ class version_102 extends migration
 	{   
 		return array(
 			array('config.add', array('ic_nm_forum_id', 'forum id')),
-		};
+		);
 
 	}
 }
